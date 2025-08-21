@@ -154,19 +154,26 @@ color: beige;
       <label for="email">Correo electrónico:</label>
       <input type="email" id="email" name="email" required>
 
-      <div class="piezas">
-        <label>Selecciona las piezas que necesitas: </label>
-        <label><input type="checkbox" name="pieza" value="Pastillas de freno"> Pastillas de freno </label>
-        <label><input type="checkbox" name="pieza" value="Filtro de aceite"> Filtro de aceite </label>
-        <label><input type="checkbox" name="pieza" value="Amortiguador"> Amortiguador </label>
-        <label><input type="checkbox" name="pieza" value="Aceite de Motor"> Aceite  </label>
-        <label><input type="checkbox" name="pieza" value="Bumper"> Bumper </label>
-        <label><input type="checkbox" name="pieza" value="Capo"> Capo </label>
-        <label><input type="checkbox" name="pieza" value="Fender"> Fender </label>
-        <label><input type="checkbox" name="pieza" value="Filtro de Aire"> Filtro de Aire </label>
-        <label><input type="checkbox" name="pieza" value="Turbo"> Turbo  </label>
-        <label><input type="checkbox" name="pieza" value="Intercooler"> Intercooler </label>
-      </div>
+     <div class="piezas">
+  <label><strong>Selecciona una pieza de frenos:</strong></label>
+  <label><input type="radio" name="frenos" value="Pastillas de freno"> Pastillas de freno</label>
+
+  <label><strong>Selecciona una pieza de motor:</strong></label>
+  <label><input type="radio" name="motor" value="Filtro de aceite"> Filtro de aceite</label>
+  <label><input type="radio" name="motor" value="Aceite de Motor"> Aceite</label>
+  <label><input type="radio" name="motor" value="Filtro de Aire"> Filtro de Aire</label
+  ><label><input type="radio" name="motor" value="Turbo"> Turbo</label>
+  <label><input type="radio" name="motor" value="Intercooler"> Intercooler</label>
+
+  <label><strong>Selecciona una pieza de suspensión:</strong></label>
+  <label><input type="radio" name="suspension" value="Amortiguador"> Amortiguador</label>
+
+  <label><strong>Selecciona una pieza de carrocería:</strong></label>
+  <label><input type="radio" name="carroceria" value="Bumper"> Bumper</label>
+  <label><input type="radio" name="carroceria" value="Capo"> Capo</label>
+  <label><input type="radio" name="carroceria" value="Fender"> Fender</label>
+</div>
+
 
       <input type="submit" value="Enviar registro">
     </form>
@@ -178,6 +185,7 @@ color: beige;
   </footer>
 </body>
 </html>
+
 
 
 
